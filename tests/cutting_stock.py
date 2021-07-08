@@ -25,7 +25,7 @@ class MyTestCase(unittest.TestCase):
         """
         # given
         expected_stock_size = 60
-        expected_piece_count = 9
+        expected_piece_count = 13
         # when
         actual_stock_size = self.csp.stock_size
         actual_piece_count = self.csp.count
